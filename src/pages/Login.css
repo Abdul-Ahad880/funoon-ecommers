@@ -42,7 +42,7 @@
 
 .login-container .formm {
     margin-top: 50px;
-    height: 520px;
+    height: 550px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.13);
     position: absolute;
@@ -55,7 +55,11 @@
     box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
     padding: 50px 35px;
 }
-
+.login-container p{
+margin-top: 20px;
+    align-items: center;
+    text-align: center;
+}
 .login-container .formm * {
     font-family: 'Poppins', sans-serif;
     color: #ffffff;
@@ -95,7 +99,7 @@
 }
 
 .login-container button {
-    margin-top: 50px;
+    margin-top: 35px;
     width: 100%;
     background-color: #ffffff;
     color: #080710 !important;
@@ -105,7 +109,22 @@
     border-radius: 5px;
     cursor: pointer;
 }
+.login-container .btn {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710 !important;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-container .btn:hover {
 
+    background-color: #ffffff;
+   
+}
 .login-container .social {
     margin-top: 30px;
     display: flex;

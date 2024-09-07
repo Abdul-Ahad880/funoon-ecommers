@@ -1,7 +1,14 @@
 import React from 'react'
 import './Signup.css'
+import { useNavigate } from 'react-router-dom'
 import { Navbar } from '../components'
 const Signup = () => {
+
+  const navigate =  useNavigate()
+
+  const handleClick = () => {
+navigate('/login')
+  }
   return (
    <>
    <Navbar/>
@@ -22,6 +29,8 @@ const Signup = () => {
           <label htmlFor="password">Password</label>
           <input type="password" placeholder="Password" id="password" />
           <button>Sign Up</button>
+          <p>OR</p>
+          <button className='signup' onClick={handleClick}>Login</button>
           {/* <div className="social">
             <div className="go"><i className="fa fa-google"></i> Google</div>
            
