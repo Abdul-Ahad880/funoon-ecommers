@@ -6,13 +6,14 @@
     left: 0;
     width: 200px;
     z-index: 1000;
+    height: auto;
     overflow-y: auto;
   }
   
   .content-area {
     margin-left: 200px;
     padding-top: 20px;
-    height: 100vh;
+    height: auto;
     overflow-y: auto;
     background-color: #f4f4f4;
   }
@@ -24,6 +25,7 @@
   .nav-link:hover {
     background-color: #495057; 
     color: #f8f9fa; 
+    height: auto;
   }
   
   .sidebar h2 {

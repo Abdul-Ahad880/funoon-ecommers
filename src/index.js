@@ -49,13 +49,10 @@ import store from './redux/store';
 import { Home, Product, Products, AboutPage, ContactPage, Cart, Checkout, PageNotFound } from './pages';
 import Admin from './pages/Admin';
 import Users from './pages/Users';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
+import AdminProducts from './pages/AdminProducts';
 
-// Dummy Products component for Admin
-const AdminProducts = () => (
-  <div>
-    <h2>Products Page</h2>
-  </div>
-);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -71,6 +68,8 @@ root.render(
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
         
         {/* Admin routes with nested options */}
         <Route path="/admin" element={<Admin />}>

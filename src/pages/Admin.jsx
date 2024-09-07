@@ -12,7 +12,7 @@ const Admin = () => {
       <div className="container-fluid">
         <div className="row">
           
-          <nav className="col-md-3 col-lg-2 bg-dark sidebar fixed-sidebar d-flex flex-column align-items-start vh-100 p-3">
+          <nav className="col-md-3 col-lg-2 bg-dark sidebar fixed-sidebar d-flex flex-column align-items-start  p-3">
             <h2 className="text-white mb-4">Admin Panel</h2>
             <ul className="nav flex-column w-100">
               <li className="nav-item mb-2">
